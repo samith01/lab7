@@ -63,5 +63,3 @@ with open("circle.gcode", "r") as f:
 
             elboAngle = float(command[2][1:])
             servoMove(elboServo, elboAngle)
-
-        # anything else in the file (like M18 at the end) is ignored
