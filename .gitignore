@@ -1,0 +1,3 @@
+# Exclude lab PDF
+SED 1115 Lab 7_v2_fillable.pdf
+*.pdf
